@@ -1,0 +1,16 @@
+{
+    "name": "plyco/wp-p2p-payout-awepay",
+    "description": "Awepay P2P Payout Plugin",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "md mahabubur rahman",
+            "email": "md9.mahabubur@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"AwepayPayout\\": "./includes"}
+    }
+}
