@@ -1,0 +1,584 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Awepay Gateway\n"
+"POT-Creation-Date: 2016-09-24 08:19-0800\n"
+"PO-Revision-Date: 2016-09-24 08:19-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-gateway-awepay-addons.php:104
+#: includes/class-wc-gateway-awepay-addons.php:150
+#: includes/class-wc-gateway-awepay.php:548
+#: includes/legacy/class-wc-gateway-awepay.php:446
+msgid ""
+"Sorry, the minimum allowed order total is 0.50 to use this payment method."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay-addons.php:117
+msgid "Customer not found"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay-addons.php:157
+msgid "Unable to store payment details. Please try again."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay-addons.php:218
+#: includes/class-wc-gateway-awepay-addons.php:261
+#, php-format
+msgid "Awepay Transaction Failed (%s)"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay-addons.php:383
+#: includes/class-wc-gateway-awepay-addons.php:388
+#, php-format
+msgid "Via %s card ending in %s"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:88
+#: includes/legacy/class-wc-gateway-awepay.php:18
+msgid "Awepay"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:89
+#: includes/legacy/class-wc-gateway-awepay.php:19
+msgid ""
+"Awepay works by adding credit card fields on the checkout and then sending "
+"the details to Awepay for verification."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:131
+#: includes/legacy/class-wc-gateway-awepay.php:60
+msgid "Continue to payment"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:135
+#: includes/legacy/class-wc-gateway-awepay.php:64
+#, php-format
+msgid ""
+"TEST MODE ENABLED. In test mode, you can use the card number "
+"4242424242424242 with any CVC and a valid expiration date or check the "
+"documentation \"<a href=\"%s\">Testing Awepay</a>\" for more card numbers."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:222
+#: includes/legacy/class-wc-gateway-awepay.php:165
+#, php-format
+msgid ""
+"Awepay is enabled, but the <a href=\"%s\">force SSL option</a> is disabled; "
+"your checkout may not be secure! Please enable SSL and ensure your server "
+"has a valid SSL certificate - Awepay will only work in test mode."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:262
+msgid ""
+"This is not a valid live key. Live keys start with \"sk_live_\" and "
+"\"pk_live_\"."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:273
+msgid ""
+"This is not a valid test key. Test keys start with \"sk_test_\" and "
+"\"pk_test_\"."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:298
+msgid "Add Card"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:309
+#: includes/legacy/class-wc-gateway-awepay.php:262
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:353
+#: includes/legacy/class-wc-gateway-awepay.php:296
+msgid "Please accept the terms and conditions first"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:354
+#: includes/legacy/class-wc-gateway-awepay.php:297
+msgid "Please fill in required checkout fields first"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:375
+msgid "Sorry, we're not accepting prepaid cards at this time."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:379
+msgid "The card number is not a valid credit card number."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:380
+msgid "The card's expiration month is invalid."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:381
+msgid "The card's expiration year is invalid."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:382
+msgid "The card's security code is invalid."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:383
+msgid "The card number is incorrect."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:384
+msgid "The card has expired."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:385
+msgid "The card's security code is incorrect."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:386
+msgid "The card's zip code failed validation."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:387
+msgid "The card was declined."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:388
+msgid "There is no card on a customer that is being charged."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:389
+msgid "An error occurred while processing the card."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:390
+msgid "Could not find payment information."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:405
+#: includes/legacy/class-wc-gateway-awepay.php:331
+#, php-format
+msgid "%s - Order %s"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:474
+msgid "Invalid payment method. Please input a new card number."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:536
+#: includes/legacy/class-wc-gateway-awepay.php:434
+msgid "Please enter your card details to make a payment."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:537
+#: includes/legacy/class-wc-gateway-awepay.php:435
+msgid ""
+"Developers: Please make sure that you are including jQuery and there are no "
+"JavaScript errors on the page."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:565
+msgid "This card is no longer available and has been removed."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:588
+#: includes/legacy/class-wc-gateway-awepay.php:481
+#, php-format
+msgid "Error: %s"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:634 woocommerce-gateway-awepay.php:345
+#, php-format
+msgid "Awepay charge complete (Charge ID: %s)"
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:645
+#: includes/legacy/class-wc-gateway-awepay.php:526
+#, php-format
+msgid ""
+"Awepay charge authorized (Charge ID: %s). Process order to take payment, or "
+"cancel to remove the pre-authorization."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:659
+#: includes/legacy/class-wc-gateway-awepay.php:540
+msgid "There was a problem adding the card."
+msgstr ""
+
+#: includes/class-wc-gateway-awepay.php:709
+#: includes/legacy/class-wc-gateway-awepay.php:590
+#, php-format
+msgid "Refunded %s - Refund ID: %s - Reason: %s"
+msgstr ""
+
+#: includes/class-wc-awepay-api.php:73
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: includes/class-wc-awepay-customer.php:143
+msgid "Could not create Awepay customer."
+msgstr ""
+
+#: includes/class-wc-awepay-customer.php:184
+msgid "Unable to add card"
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay-saved-cards.php:50
+#: includes/legacy/class-wc-gateway-awepay-saved-cards.php:73
+msgid "Unable to make default card, please try again"
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay-saved-cards.php:54
+msgid "Unable to delete card."
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay-saved-cards.php:56
+msgid "Card deleted."
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay-saved-cards.php:77
+msgid "Unable to update default card."
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay-saved-cards.php:79
+msgid "Default card updated."
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay.php:149
+#, php-format
+msgid "Awepay error: Please enter your secret key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay.php:153
+#, php-format
+msgid "Awepay error: Please enter your publishable key <a href=\"%s\">here</a>"
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay.php:159
+msgid ""
+"Awepay error: Your secret and publishable keys match. Please check and re-"
+"enter."
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay.php:218
+msgid "Manage cards"
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay.php:229
+#, php-format
+msgid "%s card ending in %s (Expires %s/%s)"
+msgstr ""
+
+#: includes/legacy/class-wc-gateway-awepay.php:237
+msgid "Use a new credit card"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:1
+msgid "Saved cards"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:5
+msgid "Card"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:6
+msgid "Expires"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:19
+#, php-format
+msgid "%s card ending in %s"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:20
+msgid "(Default)"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:22
+#, php-format
+msgid "Expires %s/%s"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:27
+msgid "Delete card"
+msgstr ""
+
+#: includes/legacy/templates/saved-cards.php:34
+msgid "Make Default"
+msgstr ""
+
+#: includes/settings-awepay.php:9
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/settings-awepay.php:10
+msgid "Enable Awepay"
+msgstr ""
+
+#: includes/settings-awepay.php:16
+msgid "Title"
+msgstr ""
+
+#: includes/settings-awepay.php:18
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: includes/settings-awepay.php:19
+msgid "P2P (Awepay)"
+msgstr ""
+
+#: includes/settings-awepay.php:23
+msgid "Description"
+msgstr ""
+
+#: includes/settings-awepay.php:25
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: includes/settings-awepay.php:26
+msgid "Pay with P2P Payment via Awepay."
+msgstr ""
+
+#: includes/settings-awepay.php:30
+msgid "Test mode"
+msgstr ""
+
+#: includes/settings-awepay.php:31
+msgid "Enable Test Mode"
+msgstr ""
+
+#: includes/settings-awepay.php:33
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: includes/settings-awepay.php:38
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/settings-awepay.php:40 includes/settings-awepay.php:47
+#: includes/settings-awepay.php:54 includes/settings-awepay.php:61
+msgid "Get your API keys from your awepay account."
+msgstr ""
+
+#: includes/settings-awepay.php:45
+msgid "Live Publishable Key"
+msgstr ""
+
+#: includes/settings-awepay.php:52
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/settings-awepay.php:59
+msgid "Test Publishable Key"
+msgstr ""
+
+#: includes/settings-awepay.php:66
+msgid "Capture"
+msgstr ""
+
+#: includes/settings-awepay.php:67
+msgid "Capture charge immediately"
+msgstr ""
+
+#: includes/settings-awepay.php:69
+msgid ""
+"Whether or not to immediately capture the charge. When unchecked, the charge "
+"issues an authorization and will need to be captured later. Uncaptured "
+"charges expire in 7 days."
+msgstr ""
+
+#: includes/settings-awepay.php:74
+msgid "Awepay Checkout"
+msgstr ""
+
+#: includes/settings-awepay.php:75
+msgid "Enable Awepay Checkout"
+msgstr ""
+
+#: includes/settings-awepay.php:77
+msgid ""
+"If enabled, this option shows a \"pay\" button and modal credit card form on "
+"the checkout, instead of credit card fields directly on the page."
+msgstr ""
+
+#: includes/settings-awepay.php:82
+msgid "Awepay Checkout locale"
+msgstr ""
+
+#: includes/settings-awepay.php:85
+msgid ""
+"Language to display in Awepay Checkout modal. Specify Auto to display "
+"Checkout in the user's preferred language, if available. English will be "
+"used by default."
+msgstr ""
+
+#: includes/settings-awepay.php:89
+msgid "Auto"
+msgstr ""
+
+#: includes/settings-awepay.php:90
+msgid "Simplified Chinese"
+msgstr ""
+
+#: includes/settings-awepay.php:91
+msgid "Dutch"
+msgstr ""
+
+#: includes/settings-awepay.php:92
+msgid "English"
+msgstr ""
+
+#: includes/settings-awepay.php:93
+msgid "French"
+msgstr ""
+
+#: includes/settings-awepay.php:94
+msgid "German"
+msgstr ""
+
+#: includes/settings-awepay.php:95
+msgid "Italian"
+msgstr ""
+
+#: includes/settings-awepay.php:96
+msgid "Japanese"
+msgstr ""
+
+#: includes/settings-awepay.php:97
+msgid "Spanish"
+msgstr ""
+
+#: includes/settings-awepay.php:101
+msgid "Bitcoin Currency"
+msgstr ""
+
+#: includes/settings-awepay.php:102
+msgid "Enable Bitcoin Currency"
+msgstr ""
+
+#: includes/settings-awepay.php:104
+msgid ""
+"If enabled, an option to accept bitcoin will show on the checkout modal. "
+"Note: Awepay Checkout needs to be enabled and store currency must be set to "
+"USD."
+msgstr ""
+
+#: includes/settings-awepay.php:109
+msgid "Awepay Checkout Image"
+msgstr ""
+
+#: includes/settings-awepay.php:110
+msgid ""
+"Optionally enter the URL to a 128x128px image of your brand or product. e.g. "
+"<code>https://yoursite.com/wp-content/uploads/2013/09/yourimage.jpg</code>"
+msgstr ""
+
+#: includes/settings-awepay.php:116
+msgid "Saved Cards"
+msgstr ""
+
+#: includes/settings-awepay.php:117
+msgid "Enable Payment via Saved Cards"
+msgstr ""
+
+#: includes/settings-awepay.php:119
+msgid ""
+"If enabled, users will be able to pay with a saved card during checkout. "
+"Card details are saved on Awepay servers, not on your store."
+msgstr ""
+
+#: includes/settings-awepay.php:124
+msgid "Logging"
+msgstr ""
+
+#: includes/settings-awepay.php:125
+msgid "Log debug messages"
+msgstr ""
+
+#: includes/settings-awepay.php:127
+msgid "Save debug messages to the WooCommerce System Status log."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:188
+#, php-format
+msgid ""
+"Awepay is almost ready. To get started, <a href=\"%s\">set your Awepay "
+"account keys</a>."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:199
+#, php-format
+msgid ""
+"The plugin could not be activated. The minimum PHP version required for this "
+"plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:201
+#, php-format
+msgid ""
+"The WooCommerce Awepay plugin has been deactivated. The minimum PHP version "
+"required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:207
+msgid "The plugin could not be activated. WooCommerce is not activated."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:212
+#, php-format
+msgid ""
+"The plugin could not be activated. The minimum WooCommerce version required "
+"for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:214
+#, php-format
+msgid ""
+"The WooCommerce Awepay plugin has been deactivated. The minimum WooCommerce "
+"version required for this plugin is %1$s. You are running %2$s."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:221
+msgid "The plugin could not be activated. cURL is not installed."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:223
+msgid ""
+"The WooCommerce Awepay plugin has been deactivated. cURL is not installed."
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:238
+msgid "Settings"
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:239
+msgid "Docs"
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:240
+msgid "Support"
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:343
+msgid "Unable to capture charge!"
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:377
+msgid "Unable to refund charge!"
+msgstr ""
+
+#: woocommerce-gateway-awepay.php:379
+#, php-format
+msgid "Awepay charge refunded (Charge ID: %s)"
+msgstr ""
